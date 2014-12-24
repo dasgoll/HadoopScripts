@@ -220,7 +220,7 @@ if __name__ == "__main__":
         if options.release == 1:
             nnURL += '/getimage?getimage=1'
         else:
-            nnURL += '/getimage?getimage=1&txid=latest'
+            nnURL += '/getimage?imagetransfer=1&txid=latest'
 
         print "Attempting to retrieve fsimage file from:\n%s\n" % nnURL
 
